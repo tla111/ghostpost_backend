@@ -6,5 +6,5 @@ class PostSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Post
         fields = [
-          'content', 'name_post', 'submission_time', 'likes', 'dislikes'
+          'id', 'content', 'name_post', 'submission_time', 'likes', 'dislikes'
         ]

@@ -15,4 +15,4 @@ class Post(models.Model):
     name_post = models.BooleanField(choices=name_choices)
 
     def __str__(self):
-      return f"{self.content}"
+        return f"{self.content}"
